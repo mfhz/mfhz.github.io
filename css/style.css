@@ -26,10 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Paragraph & Typographic */
 
-p {
+/*p {
   line-height: 28px;
   margin-bottom: 25px;
-}
+}*/
 
 .centered {
   text-align: center;
@@ -37,14 +37,16 @@ p {
 
 /* Links */
 
-a {
+/*a {
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
-}
+}*/
 
-a:hover, a:focus {
-  color: #7b7b7b;
+  
+#tt a:hover, a:focus {
+  color: #337ab7;
+  /*color: #7b7b7b;*/
   text-decoration: none;
   outline: 0;
 }
@@ -91,7 +93,49 @@ hr {
   letter-spacing: 1px;
 }
 
-/*TILT*/
+#imgp img {
+  padding-right: 40px;
+
+}
+
+#tt a {
+  float: left;
+  margin-top: 0;
+  color: #f85c37;
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+  
+  
+}
+
+#txt p {
+  margin-top: 10px;
+  float: left;  
+  text-align: left;
+}
+
+#txt a {
+  margin-top: 0;
+  float: left;
+}
+
+#credit a {
+  color: #f85c37;
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+#credit a:hover, a:focus {
+  color: #555;
+  /*color: #7b7b7b;*/
+  text-decoration: none;
+  outline: 0;
+}
+
+
+
+
+/*TILT
 
 .tilt {
   -webkit-transition: all 0.5s ease;
@@ -107,14 +151,14 @@ hr {
   -o-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
   transform: rotate(-10deg);
-}
+}*/
 
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
-  background: url(../img/header-bg1.jpg) no-repeat center top;
+#inno {
+  background: url(../img/header-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -125,7 +169,57 @@ hr {
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 100%;
+  background-size: 80%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#inno h4 {
+  color: white;
+  font-size: 28px;
+}
+
+#inno p {
+  color: white;
+  font-size: 20px;
+}
+
+#tt1 h4 {  
+  text-align: left; 
+  padding-bottom: 20px;
+}
+
+#down a {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #337ab7;
+  color: white;
+  float: left;
+}
+
+#down a:hover {
+  color: #ffffff;
+  background-color: #3498db;
+  font-style: oblique;
+}
+
+#headerwrap {
+  background: url(../img/header-bg2.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 80%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -134,18 +228,23 @@ hr {
 
 #headerwrap h1 {
   margin-top: 40px;
-  color: white;
+  color: #2B2B2B;
   font-size: 70px;
   font-weight: 300;
   letter-spacing: 3px;
 }
 
 #headerwrap h2 {
-  color: white;
+  color: #2B2B2B;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+#logoP {
+  height: 200px;
+  background-color: #e0e0e0;
 }
 
 @media (max-width: 768px ) {
@@ -189,7 +288,7 @@ hr {
 #r {
   background: #ff7878;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 55px;
 }
 
 #r h4 {
