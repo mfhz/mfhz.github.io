@@ -132,6 +132,25 @@ hr {
   outline: 0;
 }
 
+#about {
+  padding-top: 45px;
+  padding-bottom: 5px;
+}
+
+#about img {
+  float: left;  
+  padding-left: 50px; 
+  padding-right: 75px; 
+}
+
+#txt1 p {
+  padding-right: 45px;
+  text-align: justify;
+  font-size: 166%;
+  font-family: sans-serif;
+  
+}
+
 
 
 
@@ -259,15 +278,55 @@ hr {
 
 /* Dark Grey Wrap */
 
-#dg {
+#dgindex {
   background: #e0e0e0;
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
+
 }
 
-#dg h4 {
+#dgmaster {
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 24%;
+
+}
+
+#dg {
+  padding-left: 13%;
+
+}
+
+#dgp h4 {
   font-weight: 700;
+  text-align: center;
+  padding-left: 80px;
+  font-size: 150%;
+}
+
+#dgp p {
+  width: 130%;
+  text-align: justify;
+  padding-right: 10%;
+  font-size: 120%;
+}
+
+#dgp1 h4 {
+  font-weight: 700;
+  text-align: center;
+  padding-left: 268px;
+  font-size: 150%;
+}
+
+#dgp1 p {
+  padding-left: 100px;
+  width: 160%;
+  text-align: justify;
+  padding-right: 10%;
+  font-size: 120%;
+  
+  
 }
 
 /* Light Grey */
@@ -337,9 +396,7 @@ hr {
 
 /****** SECTIONS *****/
 
-.w {
-  padding-top: 35px;
-}
+
 
 .w h4 {
   font-weight: 700;
