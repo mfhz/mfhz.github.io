@@ -119,6 +119,33 @@ hr {
   float: left;
 }
 
+#imgpServ img {
+  padding-right: 40px;
+
+}
+
+#ttServ a {
+  float: left;
+  margin-top: 0;
+  color: #f85c37;
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+  
+  
+}
+
+#txtServ p {
+  margin-top: 10px;
+  float: left;  
+  text-align: left;
+}
+
+#txtServ a {
+  margin-top: 0;
+  float: left;
+}
+
+
 #credit a {
   color: #f85c37;
   word-wrap: break-word;
@@ -134,7 +161,7 @@ hr {
 
 #about {
   padding-top: 45px;
-  padding-bottom: 5px;
+  padding-bottom: 200px;
 }
 
 #about img {
@@ -279,6 +306,14 @@ hr {
 /* Dark Grey Wrap */
 
 #dgindex {
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+
+}
+
+#dgserv {
   background: #e0e0e0;
   padding-top: 70px;
   padding-bottom: 70px;
